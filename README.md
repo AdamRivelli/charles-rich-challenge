@@ -2,7 +2,8 @@
 
 In memorium of the late Professor Charles Rich
 
-https://www.wpi.edu/news/memoriam-charles-rich-computer-science-professor-and-artificial-intelligence-pioneer
+[Press Release](https://www.wpi.edu/news/memoriam-charles-rich-computer-science-professor-and-artificial-intelligence-pioneer)
+
 
 
 
