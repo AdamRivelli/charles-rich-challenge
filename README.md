@@ -5,8 +5,6 @@ In memorium of the late Professor Charles Rich
 [Press Release](https://www.wpi.edu/news/memoriam-charles-rich-computer-science-professor-and-artificial-intelligence-pioneer)
 
 
-
-
 # Rules
 
 - No solution requires more than 30 lines of code (excluding main method and library requirements)
