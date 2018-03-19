@@ -1,0 +1,5 @@
+Karatsuba Multiplication
+
+Implement Karatsuba's recursive multiplication algorithm using racket.
+
+Input is two numbers, output is one number.
