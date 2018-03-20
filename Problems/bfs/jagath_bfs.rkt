@@ -1,3 +1,4 @@
+; NOT COMPLETE
 #lang racket
 (require dyoo-while-loop)
 
@@ -10,15 +11,14 @@
 (define (bfs tree)
     (define A '("a"))
     (define explored '())
+    (define v 0)
     (while (not (empty? A))
-        (define v (first A))
+        (set! v (first A))
         (display A) (display "\n")
         (set! A (rest A))
         (if (not(is-in-list explored v))
             (and 
                 (set! explored (cons v explored))
-                ;(for ([i (hash-ref tree v)])
-                ;    (set! A (cons i A)))
                 (set! A (append A (hash-ref tree v)))
             )
             (break)
@@ -35,12 +35,8 @@
         (set! i (add1 i))
     )
     (bfs t)
-    ;(display t)
-    ;(display (hash-ref t "b"))
 )
 
 (define adj_list1 (list (list "b" "c") (list "a" "c") (list "a" "b")))
 
 (run-bfs adj_list1)
-
-;(display (is-in-list (list 'a) 'b))
