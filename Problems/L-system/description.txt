@@ -1,0 +1,3 @@
+Implement some cool graphical L-system. https://en.wikipedia.org/wiki/L-system
+
+No expected input, expected output is a string representing the nth step in your L-system's language (choose a n that looks cool), as well as an image corresponding to that n. 
